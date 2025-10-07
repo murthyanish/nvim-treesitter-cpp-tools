@@ -1,4 +1,4 @@
-local queries = require "nvim-treesitter.query"
+local queries = vim.treesitter.query
 
 local default_config = {
     enable = false,
