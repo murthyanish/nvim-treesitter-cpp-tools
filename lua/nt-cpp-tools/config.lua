@@ -1,4 +1,4 @@
-local queries = vim.treesitter.query
+local queries = require("vim.treesitter.query")
 
 local default_config = {
     enable = false,
